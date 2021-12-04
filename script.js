@@ -7,7 +7,7 @@ function greetUser(str){
   return ("Hello, " + str)
  }
  
- console.log(greetUser("test")); 
+ //console.log(greetUser("test")); 
 
  //***Write a function which returns the type of the argument we pass in***
 
@@ -22,10 +22,12 @@ console.log(checkType({name: "Asmahan"}));;
 console.log(checkType(null)); //null always returns obj when using typeof opertor
 console.log(checkType(undefined)); 
 
+
+
 //***Write a function which returns the length of the string we pass in***
 
 function strLength(str) {
   return str.length
 }
 
-console.log(strLength("string test"))
+//console.log(strLength("string test"))
